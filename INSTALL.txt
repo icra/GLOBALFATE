@@ -1,0 +1,4 @@
+Create executable in Linux
+1. Open terminal and go to directory
+2. run 'make'
+3. execute ./GLOBFATE
