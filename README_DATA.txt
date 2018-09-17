@@ -1,4 +1,7 @@
-All rasters must be in the folder 'data'
+All rasters must be in the folder 'data', as well as the files 'input_rasters.txt' and 'input_parameters.txt' described below.
+
+/***********************************************************/
+
 The names of the rasters must be placed in the file 'input_rasters.txt'
 following this order:
 1) raster of hierarchical cells numbers
@@ -14,6 +17,7 @@ following this order:
 Rasters need to have EXACTLY the same extent (including nodata cells) and resolution. Take care of geo projection!
 
 /***********************************************************/
+
 The parameters' values must be in the file 'input_paramenters.txt'
 following this order:
 1) a: coeff parameter of channel WIDTH formula in Leopold and Maddock (1953)
