@@ -8,3 +8,4 @@ k	0.0096
 save partial	1
 geo	1
 concentration	1
+#############RAFA: on es el parametre de decay a WWTP??##############
