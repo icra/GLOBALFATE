@@ -1,4 +1,6 @@
 Create executable in Linux
 1. Open terminal and go to directory
 2. run 'make'
-3. execute ./GLOBFATE
+3. run 'make clean'
+4. create the 'data' and 'results' folders in the folder where you will call the executable. Place input files in the 'data' folder
+3. execute ./GLOBALFATE.run 
