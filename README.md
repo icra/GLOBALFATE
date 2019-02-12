@@ -11,7 +11,7 @@ Highlights<br />
 Software availability<br />
 Name of software: GLOBAL-FATE<br />
 Developers: Carme Font, Francesco Bregoli and Rafael Marcé<br />
-Email: cfont@icra.cat<br />
+Email: cfont@icra.cat , rmarce@icra.cat<br /> 
 Contact address: Catalan Institute for Water Research (ICRA), Emili Grahit 101, University of Girona, 17003 Girona, Spain<br />
 Availability: Free download at https://github.com/cfontm/GLOBALFATE<br />
 First available year: 2018<br />
@@ -19,5 +19,5 @@ System requirements: Windows, Mac OS or Linux/Unix<br />
 Programming language: C<br />
 
 
-For any question, please contact cfont@icra.cat. Please refer our article: 
+For any question, please contact cfont@icra.cat or rmarce@icra.cat. Please refer our article: 
 Font C., Bregoli F., Acuña V., Sabater S., Marcé R. *GLOBAL-FATE: A GIS-based model for assessing contaminants fate in the global river network* (submitted)
