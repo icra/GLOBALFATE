@@ -1,11 +1,11 @@
 /**
  GLOBFATE Model
- Authors: Carme Font, Francesco Bregoli and Rafael Marcé
+ Authors: Carme Font, Francesco Bregoli and Rafael MarcÃ©
  Contacts: cfont@icra.cat,rmarce@icra.cat
           Catalan Institute for Water Research (ICRA),
           Carrer Emili Grahit 101, 17003, Girona (Spain), Tel (+34) 972 18 33 80
           www.icra.cat
- Description:
+ Description: // The description will be supplied upon publication of the model in a peer-reviewed journal
  Last modification: February 2019
 **/
 
