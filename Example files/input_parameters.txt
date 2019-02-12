@@ -9,7 +9,3 @@ save partial	1
 geo	1
 concentration	1
 w1 0.4
-w2 0.4
-
-
-
