@@ -1,0 +1,8 @@
+/home/carmefont/GLOBALFATE/data/acc_area.txt
+/home/carmefont/GLOBALFATE/data/acc_area.txt
+/home/carmefont/GLOBALFATE/data/acc_area.txt
+/home/carmefont/GLOBALFATE/data/acc_area.txt
+/home/carmefont/GLOBALFATE/data/acc_area.txt
+/home/carmefont/GLOBALFATE/data/wwtp_connection.txt
+/home/carmefont/GLOBALFATE/data/flow_acc.txt
+/home/carmefont/GLOBALFATE/data/RT.txt
