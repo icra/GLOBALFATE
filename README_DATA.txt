@@ -1,8 +1,9 @@
-All rasters must be in the folder 'data', as well as the file 'input_parameters.txt' described below.
+All rasters must be in the folder 'data', as well as the files 'input_rasters.txt' and 'input_parameters.txt' described below.
 
 /***********************************************************/
 
-The names of the rasters must be excatly as indicated here:
+The file 'input_rasters.txt' contains the names of the input rasters.
+The order of the rasters' names must be exactly as indicated here:
 1) raster of hierarchical cells numbers (acc_area.txt)
 2) raster of flow direction calculated with D8 method (fdr.txt)
 3) raster of annual runoff in mm/year (runoff.txt)
