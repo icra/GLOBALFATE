@@ -2,5 +2,5 @@ Create executable (tested in Ubuntu and Windows):
 1. Open terminal (cygwin or similar in case of Windows) and go to "src" directory
 2. run 'make'
 3. run 'make clean'
-4. create the 'data' and 'results' folders in the folder where you will call the executable. Place input files in the 'data' folder
-3. execute ./GLOBALFATE.run 
+4. create the 'data' and 'results' folders in the folder where you will call the executable. Place input files in the 'data' folder, as well as the file 'input_parameters.txt' and 'input_rasters.txt' (see README_DATA).
+3. execute ./GLOBALFATE
