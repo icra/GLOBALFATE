@@ -1,10 +1,10 @@
 Plugin Builder Results
 
 Your plugin globalfate was created in:
-    C:\Users\username\.qgis2\python\plugins\globalfate
+    C:\Users\cfont\.qgis2\python\plugins\globalfate
 
 Your QGIS plugin directory is located at:
-    C:/Users/username/.qgis2/python/plugins
+    C:/Users/cfont/.qgis2/python/plugins
 
 What's Next:
 

@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=GLOBAL-FATE
+qgisMinimumVersion=2.0
+description=Simulates contaminants fate and transport through the global river network
+version=0.1
+author=Carme Font
+email=cfont@icra.cat
+
+about=GLOBAL-FATE is a GIS-based model that simulates the fate of contaminants from human consumption discharged to the global river network. The nature of the model allows using any microcontaminant that decreases at a rate proportional to its concentration in the aquatic media. For any question, please contact cfont@icra.cat. Please refer our article: Font C., Bregoli F., Acuña V., Sabater S., Marcé R. GLOBAL-FATE: A GIS-based model for assessing contaminants fate in the global river network (submitted)
+
+tracker=https://github.com/icra/GLOBALFATE
+repository=https://github.com/icra/GLOBALFATE
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, microcontaminants, hydrology
+
+homepage=https://github.com/icra/GLOBALFATE
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
