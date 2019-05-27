@@ -1,0 +1,6 @@
+Copy this folder in:
+C:\Users\username\.qgis2\python\plugins
+(remember to change "username")
+
+Go to the QGIS repository and search "GLOBALFATE".
+Then, install the plugin.
