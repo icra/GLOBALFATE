@@ -1,4 +1,4 @@
-Copy this folder in:
+Copy the folder 'globalfate' in:
 C:\Users\username\.qgis2\python\plugins
 (remember to change "username")
 
