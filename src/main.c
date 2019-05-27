@@ -148,24 +148,6 @@ int main(int argc, char *argv[]){
           treated = read_raster(9, ref_treated);
      }
      
-     /** parameters from call **/
-     if(argc>1){
-          P1 = atof(argv[1]);
-          parameters[6] = P1;//k
-		printf("k=%g\n", parameters[6]);
-     }
-     if(argc>2){
-          P2 = atof(argv[2]);
-          printf("e=%g\n", P2);
-          parameters[10]=P2;//wwtp removal rate
-     }
-     if(argc>3){
-          P2 = atof(argv[2]);
-          printf("e=%g\n", P2);
-          parameters[11]=P2;//wwtp removal rate
-     }
-
-
      /** 5. running the Contaminant accumulation function **/
      printf("Running contaminant...\n");
      L0 = initial_contaminant_load(nrows, ncols, parameters[5], consum, population, treated, parameters[10]);
