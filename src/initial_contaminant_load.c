@@ -12,7 +12,7 @@ double** initial_contaminant_load(int nrows, int ncols, double excretion_rate, d
      for(i=0; i<nrows; i++)
           for(j=0; j<ncols; j++){
                if(consum[i][j]>=0 && population[i][j]>=0 && wwtp_connection[i][j]>=0){
-                    L[i][j] = consum[i][j] * population[i][j] * excretion_rate * (1 - wwtp_connection[i][j]/100*wwtp_decay) * pow(10, 6);//ng/year
+                    L[i][j] = consum[i][j] * population[i][j] * excretion_rate * (1 - wwtp_connection[i][j]/100*wwtp_decay) * pow(10, 6);//microgram/year
                }
           }
      return L;
