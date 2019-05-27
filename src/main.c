@@ -156,9 +156,9 @@ int main(int argc, char *argv[]){
      /** Save result **/
      strcpy(name, dir2);
      if(parameters[9]==1)//concentration
-          strcat(name, "contaminant_C");
+          strcat(name, "contaminant_C"); //ng/L/year
      if(parameters[9]==0)//load
-          strcat(name, "contaminant_L");
+          strcat(name, "contaminant_L"); //micro g/year
      strcat(name, ".txt");
      write_raster(name, ref_raster, C);
 
