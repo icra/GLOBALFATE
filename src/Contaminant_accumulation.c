@@ -30,7 +30,7 @@ double **Contaminant_accumulation(double **L, double **direction, double **hiera
      for(i=0; i<nrows; i++)
           for(j=0; j<ncols; j++){
                if(flow_acc[i][j]>0 && L[i][j]>=0)
-                    L[i][j]/=flow_acc[i][j];
+                    L[i][j]/=flow_acc[i][j]; //ng/L/year
                else
                     L[i][j]=-9999;
                }
