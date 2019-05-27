@@ -6,6 +6,5 @@ n	0.044
 excretion rate	0.125
 k	0.01
 w1	0.4
-w2	0
 save partial	0
 geo	0
