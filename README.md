@@ -20,4 +20,4 @@ Programming language: C<br />
 
 
 For any question, please contact cfont@icra.cat or rmarce@icra.cat. Please refer our article: 
-Font C., Bregoli F., Acuña V., Sabater S., Marcé R. *GLOBAL-FATE: A GIS-based model for assessing contaminants fate in the global river network* (submitted)
+Font C., Bregoli F., Acuña V., Sabater S., Marcé R. *GLOBAL-FATE: A GIS-based model for assessing contaminants fate in the global river network* (under discussion) https://doi.org/10.5194/gmd-2019-8
