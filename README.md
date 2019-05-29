@@ -13,7 +13,7 @@ Name of software: GLOBAL-FATE<br />
 Developers: Carme Font, Francesco Bregoli and Rafael Marcé<br />
 Email: cfont@icra.cat , rmarce@icra.cat<br /> 
 Contact address: Catalan Institute for Water Research (ICRA), Emili Grahit 101, University of Girona, 17003 Girona, Spain<br />
-Availability: Free download at https://github.com/cfontm/GLOBALFATE<br />
+Availability: Free download at https://github.com/ICRA/GLOBALFATE<br />
 First available year: 2018<br />
 System requirements: Windows, Mac OS or Linux/Unix<br />
 Programming language: C<br />
