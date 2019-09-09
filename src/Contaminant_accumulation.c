@@ -3,16 +3,16 @@
 double **Contaminant_accumulation(double **L, double **direction, double **hierarchy, int nl, double **flow_acc, double **RT, double *parameters, int nrows, int ncols){
      int i, j, unics, c, r, J;
      double dk = parameters[6];
-     int conc = parameters[9];
+     int conc = parameters[10];
 
      //Hierarchization of the fluvial network
      double *val_area = unique2(hierarchy, nl, &unics);
 
      for(i=0; i<unics; i++){
-          #pragma omp parallel
+          //#pragma omp parallel
           {
                omp_set_num_threads(4);
-          #pragma omp for private(r,c,J)
+          //#pragma omp for private(r,c,J)
           for(j=0; j<nl; j++)
                if(hierarchy[j][1]==val_area[i]){
                J=hierarchy[j][0];
@@ -30,7 +30,7 @@ double **Contaminant_accumulation(double **L, double **direction, double **hiera
      for(i=0; i<nrows; i++)
           for(j=0; j<ncols; j++){
                if(flow_acc[i][j]>0 && L[i][j]>=0)
-                    L[i][j]/=flow_acc[i][j]; //ng/L/year
+                    L[i][j]/=flow_acc[i][j];
                else
                     L[i][j]=-9999;
                }

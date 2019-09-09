@@ -10,10 +10,10 @@ void Flow_accumulation_m2(double **direction, double **hierarchy, double *area_m
           if(runoff[i][k]>0) runoff[i][k] /= 1000;
 
      for(i=0; i<unics; i++)/* unics=19697 */
-          #pragma omp parallel
+          /*#pragma omp parallel
           {
                omp_set_num_threads(4);
-          #pragma omp for private(r,c,J)
+          #pragma omp for private(r,c,J)*/
           for(k=0; k<nl; k++)
                if(hierarchy[k][1]==val_area[i]){
                J=hierarchy[k][0];
@@ -26,5 +26,5 @@ void Flow_accumulation_m2(double **direction, double **hierarchy, double *area_m
 
                runoff_input(r, c, nrows, ncols, direction, runoff);
                }
-          }
+          //}
 }

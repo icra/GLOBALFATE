@@ -1,5 +1,4 @@
 #include "lib.h"
-#include <omp.h>
 
 void sortVector (double *v, int n){
     int i, k;
@@ -87,15 +86,6 @@ double* unique(double **X, int nrows, int ncols, int *KK){
         return vals2;
 }
 
-void print_matrix(double **X, int nrows0, int ncols0, int nrows, int ncols){
-     int i, j;
-     for(i=nrows0; i<nrows; i++){
-          for(j=ncols0; j<ncols; j++)
-               printf("%g\t", X[i][j]);
-          printf("\n");
-     }
-}
-
 double** hierarchy_area(double **area, int nrows, int ncols, int *nl){
      int i, j, k;
      double value, index;
@@ -122,49 +112,4 @@ double** hierarchy_area(double **area, int nrows, int ncols, int *nl){
                          free(new_area[i]);}
      *nl=k;
      return new_new_area;
-}
-
-int check_rasters(double *ref_raster, double *ref_direction, double *ref_runoff, double *ref_slope, double *ref_lake_label, double *ref_V, double *ref_consum, double *ref_population, double *ref_connection){
-     int i;
-     for(i=0; i<6; i++){
-          if(ref_raster[i]!=ref_direction[i]){
-               printf("Rasters area and direction differ\n");
-               return 0;}
-          if(ref_raster[i]!=ref_runoff[i]){
-               printf("Rasters area and runoff differ\n");
-               return 0;}
-          if(ref_raster[i]!=ref_slope[i]){
-               printf("Rasters area and slope differ\n");
-               return 0;}
-          if(ref_raster[i]!=ref_lake_label[i]){
-               printf("Rasters area and lake label differ\n");
-               return 0;}
-          if(ref_raster[i]!=ref_V[i]){
-               printf("Rasters area and lake volume differ\n");
-               return 0;}
-          if(ref_raster[i]!=ref_consum[i]){
-               printf("Rasters area and consumption differ\n");
-               return 0;}
-          if(ref_raster[i]!=ref_population[i]){
-               printf("Rasters area and population differ\n");
-               return 0;}
-          if(ref_raster[i]!=ref_connection[i]){
-               printf("Rasters area and wwtp connection differ\n");
-               return 0;}
-     }
-     return 1;
-}
-
-void nan_unif(int nrows, int ncols, double **area, double **direction, double **slope, double **consum, double **population, double **connection){
-     int i, j;
-     for(i=0; i<nrows; i++)
-          for(j=0; j<ncols; j++)
-               if(area[i][j]==-9999 || direction[i][j]==-9999 || slope[i][j]==-9999 || consum[i][j]==-9999 || population[i][j]==-9999 || connection[i][j]==-9999){
-                   area[i][j]==-9999;
-                   direction[i][j]==-9999;
-                   slope[i][j]==-9999;
-                   consum[i][j]==-9999;
-                   population[i][j]==-9999;
-                   connection[i][j]==-9999;
-               }
 }

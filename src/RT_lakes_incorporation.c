@@ -15,19 +15,19 @@ double* lakes_RT_incorporation(double **lake_label, double **V, double **flow_ac
      for (i=0; i<number_of_lakes; i++){
           current_lake=i+1;
           max_flow=-1;
-          #pragma omp parallel
+          /*#pragma omp parallel
           {
                omp_set_num_threads(4);
-          #pragma omp for private(c, I)
+          #pragma omp for private(c, I)*/
           for(r=0; r<nrows; r++)
           for(c=0; c<ncols; c++)
                if(lake_label[r][c]==current_lake){
                I=r+c*nrows;
                RT[r][c]=0;
                //find the max discharge within the lake, this point is considered the outlet
-               #pragma omp flush (Idx, max_flow)
+               //#pragma omp flush (Idx, max_flow)
                if(flow_acc[r][c]>=max_flow){
-                    #pragma omp critical
+                 //   #pragma omp critical
                     {
                     if(flow_acc[r][c]>=max_flow){
                      if(max_flow==flow_acc[r][c]){
@@ -42,7 +42,7 @@ double* lakes_RT_incorporation(double **lake_label, double **V, double **flow_ac
                     }
                }
           }
-          }
+          //}
           Qmax[i] = max_flow/(365*24);//convert flow to m3/hours
 
           //assign the total RT at the outlet, leaving RT zero in the other part of  the lakes

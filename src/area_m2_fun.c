@@ -19,7 +19,6 @@ The output are
 */
 
 #include "lib.h"
-#include "math.h"
 
 void area_m2_fun(double resolution, int nrows, double yllcorner, double R, double *a_m2, double *width, double *height){
 
