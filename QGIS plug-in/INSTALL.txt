@@ -8,5 +8,5 @@ C:\Users\USER\.qgis2\python\plugins (windows)
 
 Once in python > plugins, copy the folder 'globalfate' here.
 
-Then, go to the QGIS repository and search "GLOBALFATE".
+Then, go to the QGIS repository and search for "GLOBALFATE".
 Finally, install the plugin.
