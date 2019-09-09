@@ -27,7 +27,7 @@ following this order:
 5) n: Manning coefficient in SI (s*m^(-1/3))
 6) excretion rate: rate of excretion of the compound
 7) k: DECAY RATE (hours^-1)
-8) save partial: save partial results? 0 (no); 1 (yes)
-9) geo: geographical processes needed? 0 (no); 1 (yes). In case of 0 (no) the files corresponding to Residence Time (RT.txt)  and flow accumulation (flow_acc.txt) are taken from the folder "results", where all the results are placed.
-10) concentration: If you want to get contaminant concentration set 1; if you prefer contaminant load set 0
-11) decay rate in wwtp's (fraction of load)
+8) decay rate in wwtp's (fraction of load)
+9) save partial: save partial results? 0 (no); 1 (yes)
+10) geo: geographical processes needed? 0 (no); 1 (yes). In case of 0 (no) the files corresponding to Residence Time (RT.txt)  and flow accumulation (flow_acc.txt) are taken from the folder "results", where all the results are placed.
+11) concentration: If you want to get contaminant concentration set 1; if you prefer contaminant load set 0
