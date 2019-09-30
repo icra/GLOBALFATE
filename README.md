@@ -1,4 +1,4 @@
-# GLOBAL-FATE
+# GLOBAL-FATE Version 1.0.0
 
 GLOBAL-FATE is a GIS-based model that simulates the fate of contaminants from human consumption discharged to the global river network. We provide here an outline of the utility of GLOBAL-FATE as an assessment tool for the fate of chemicals delivered from point sources to the fluvial system. The nature of the model allows using any microcontaminant that decreases at a rate proportional to its concentration in the aquatic media.
 
