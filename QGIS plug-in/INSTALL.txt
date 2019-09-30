@@ -1,12 +1,16 @@
+Fist, you need to set the folder for QGIS plugins depending on your QGIS version:
+
+QGIS 3
 First, open QGIS and go to menu Settings -> User profiles -> Open active profile folder
 From there, you can go to python -> plugins. That's the plugin folder for QGIS v3.
 
+QGIS 2
 For QGIS v2, go to the folder:
-C:\Users\USER\.qgis2\python\plugins (windows)
+C:\Users\*USER*\.qgis2\python\plugins (windows)
 
-** Change USER to your user name.
+** Change **USER** to your user name.
 
-Once in python > plugins, copy the folder 'globalfate' here.
+Then, once in python > plugins, copy the folder 'globalfate' here.
 
 Then, go to the QGIS repository and search for "GLOBALFATE".
 Finally, install the plugin.
