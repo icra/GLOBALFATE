@@ -9,7 +9,9 @@ For QGIS v2, go to the folder:
 C:\Users\*USER*\.qgis2\python\plugins (windows)
 
 
-Then, once in python > plugins, copy the folder 'globalfate' here.
+Once in python > plugins, copy the folder 'globalfate' here.
+You need to change the line of the call to the executable file in 'globalfate.py', 
+please, change the path accordingly to your device.
 
 Then, go to the QGIS repository and search for "GLOBALFATE".
 Finally, install the plugin.
